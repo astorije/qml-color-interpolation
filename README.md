@@ -31,7 +31,7 @@ You need to provide several ColorStops inside a ColorInterpolation. ColorStop ta
         ]
     }
     
-Then, you need to call `interpolation.getColorAt(value)` to get the interpolated color at the 'value' position of the range.
+Then, you need to call `interpolation.getColorAt(value)` to get the interpolated color at the `value` position of the range.
 
 And, that's it!
 
@@ -40,3 +40,8 @@ License
 
 This project has been released under the LGPL 3 license.
 Please refer to LICENSE.GPL and LICENSE.LGPL for more information.
+
+Todolist
+--------
+
+* Make the `stops` property the default value of the ColorInterpolation element. `stops` is a list, and list properties marked as default are not supported by Qt 4.8 (it will be in Qt 5.0).
